@@ -9,10 +9,9 @@ const Drawer = createDrawerNavigator();
 
 export default function DrawerNavigation() {
   return (
-    <NavigationContainer>
+    // <NavigationContainer>
       <Drawer.Navigator initialRouteName="Home Screen">
         <Drawer.Screen name="Home Screen" component={HomeDashboardScreen} />
       </Drawer.Navigator>
-    </NavigationContainer>
   );
 }
